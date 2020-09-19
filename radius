@@ -1,0 +1,16 @@
+package com.gmail.igorexa.ua;
+
+import java.util.Scanner;
+
+public class Radius {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		double r= sc.nextDouble();
+		double l = 2*Math.PI*r;
+		System.out.println(l);
+		
+
+	}
+
+}
