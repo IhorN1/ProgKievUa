@@ -1,0 +1,235 @@
+package com.gmail.igorexa.ua;
+
+import java.util.Scanner;
+
+public class House {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int number = sc.nextInt();
+		String etagpod;
+		switch (number) {
+		case 1:
+		case 2:
+		case 3:
+		case 4:
+			etagpod = "1etag - 1pod";
+			break;
+		case 5:
+		case 6:
+		case 7:
+		case 8:
+			etagpod = "2etag - 1 pod";
+			break;
+		case 9:
+		case 10:
+		case 11:
+		case 12:
+			etagpod = "3etag - 1 pod";
+			break;
+		case 13:
+		case 14:
+		case 15:
+		case 16:
+			etagpod = "4etag - 1 pod";
+			break;
+		case 17:
+		case 18:
+		case 19:
+		case 20:
+			etagpod = "5etag - 1 pod";
+			break;
+		case 21:
+		case 22:
+		case 23:
+		case 24:
+			etagpod = "6etag - 1 pod";
+			break;
+		case 25:
+		case 26:
+		case 27:
+		case 28:
+			etagpod = "7etag - 1 pod";
+			break;
+		case 29:
+		case 30:
+		case 31:
+		case 32:
+			etagpod = "8etag - 1 pod";
+			break;
+		case 33:
+		case 34:
+		case 35:
+		case 36:
+			etagpod = "9etag - 1 pod";
+			break;
+		case 37:
+		case 38:
+		case 39:
+		case 40:
+			etagpod = "1etag - 2 pod";
+			break;
+		case 41:
+		case 42:
+		case 43:
+		case 44:
+			etagpod = "2etag - 2 pod";
+			break;
+		case 45:
+		case 46:
+		case 47:
+		case 48:
+			etagpod = "3etag - 2 pod";
+			break;
+		case 49:
+		case 50:
+		case 51:
+		case 52:
+			etagpod = "4etag - 2 pod";
+			break;
+		case 53:
+		case 54:
+		case 55:
+		case 56:
+			etagpod = "5etag - 2 pod";
+			break;
+		case 57:
+		case 58:
+		case 59:
+		case 60:
+			etagpod = "6etag - 2 pod";
+			break;
+		case 61:
+		case 62:
+		case 63:
+		case 64:
+			etagpod = "7etag - 2 pod";
+			break;
+		case 65:
+		case 66:
+		case 67:
+		case 68:
+			etagpod = "8etag - 2 pod";
+			break;
+		case 69:
+		case 70:
+		case 71:
+		case 72:
+			etagpod = "9etag - 2 pod";
+			break;
+		case 73:
+		case 74:
+		case 75:
+		case 76:
+			etagpod = "1etag - 3 pod";
+			break;
+		case 77:
+		case 78:
+		case 79:
+		case 80:
+			etagpod = "2etag - 3 pod";
+			break;
+		case 81:
+		case 82:
+		case 83:
+		case 84:
+			etagpod = "3etag - 3 pod";
+			break;
+		case 85:
+		case 86:
+		case 87:
+		case 88:
+			etagpod = "4etag - 3 pod";
+			break;
+		case 89:
+		case 90:
+		case 91:
+		case 92:
+			etagpod = "5etag - 3 pod";
+			break;
+		case 93:
+		case 94:
+		case 95:
+		case 96:
+			etagpod = "6etag - 3 pod";
+			break;
+		case 97:
+		case 98:
+		case 99:
+		case 100:
+			etagpod = "7etag - 3 pod";
+			break;
+		case 101:
+		case 102:
+		case 103:
+		case 104:
+			etagpod = "8etag - 3 pod";
+			break;
+		case 105:
+		case 106:
+		case 107:
+		case 108:
+			etagpod = "9etag - 3 pod";
+			break;
+		case 109:
+		case 110:
+		case 111:
+		case 112:
+			etagpod = "1etag - 4 pod";
+			break;
+		case 113:
+		case 114:
+		case 115:
+		case 116:
+			etagpod = "2etag - 4 pod";
+			break;
+		case 117:
+		case 118:
+		case 119:
+		case 120:
+			etagpod = "3etag - 4 pod";
+			break;
+		case 121:
+		case 122:
+		case 123:
+		case 124:
+			etagpod = "4etag - 4 pod";
+			break;
+		case 125:
+		case 126:
+		case 127:
+		case 128:
+			etagpod = "5etag - 4 pod";
+			break;
+		case 129:
+		case 130:
+		case 131:
+		case 132:
+			etagpod = "6etag - 4 pod";
+			break;
+		case 133:
+		case 134:
+		case 135:
+		case 136:
+			etagpod = "7etag - 4 pod";
+			break;
+		case 137:
+		case 138:
+		case 139:
+		case 140:
+			etagpod = "8etag - 4 pod";
+			break;
+		case 141:
+		case 142:
+		case 143:
+		case 144:
+			etagpod = "9etag - 4 pod";
+			break;
+		default:
+			etagpod = "net takoy kvartiru";
+
+		}
+		System.out.println(etagpod);
+	}
+
+}
