@@ -1,0 +1,23 @@
+package com.gmail.ua.igorexa;
+
+import java.util.Scanner;
+
+public class Trey {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int a = sc.nextInt();
+		int b = sc.nextInt();
+		int c = sc.nextInt();
+		if (a + b >= c) {
+			System.out.println("Треугольник существует");
+		} else if (a + c >= b) {
+			System.out.println("Треугольник существует");
+		} else if (b + c >= a) {
+			System.out.println("Треугольник существует");
+		} else {
+			System.out.println("Треугольник не существует");
+		}
+	}
+
+}
