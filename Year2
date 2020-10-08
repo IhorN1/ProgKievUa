@@ -1,0 +1,23 @@
+package com.gmail.ua.igorexa;
+
+import java.util.Scanner;
+
+public class Year {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int y = sc.nextInt();
+
+		if (y % 400 == 0) {
+			System.out.println("Високосный");
+		} else if (y % 100 == 0) {
+			System.out.println("Не Високосный");
+		} else if (y % 4 == 0) {
+			System.out.println("Високосный");
+		} else {
+			System.out.println("Не високосный");
+		}
+
+	}
+
+}
